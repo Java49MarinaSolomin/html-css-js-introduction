@@ -1,0 +1,30 @@
+.logo{ font-size: 50px;color: darkmagenta;
+
+}
+.main-class{
+    
+}
+.details-container{
+    
+}
+.details-image{ width: 500px;display:block;
+    
+}
+.details-title{ display: inline-block; width: 500px;font-size: 20px; color:indigo;
+    
+}
+.thumbnail-item{display: inline-block; width: 100px;
+    
+}
+.thumbnail-list{list-style: none;
+    
+}
+.thumbnail-image{ width: 80px; 
+    
+}
+.thumbnail-title{display: block;
+    
+}
+.thumbnail-anchor{
+    
+}
