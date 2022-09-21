@@ -3,9 +3,11 @@ body{
     flex-direction: column;
     background-color:rgb(255, 182, 239);
 }
-.logo{ font-size: 50px;color: rgb(242, 128, 242);
+.logo{ font-size: 50px;
+    color: rgb(242, 128, 242);
     text-align: center;
     background-color:rgb(117, 5, 93);
+    display: block;
    
 
 }
@@ -16,30 +18,29 @@ body{
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-top: 4.5vh;
+    margin-top: 2.5vh;
    
 }
 .details-image{ 
-    width: 40vw;
-    height: 30vw;
+    width: 70vw;
+    height: 60vw;
     border:solid 2px; color: rgb(137, 5, 137); 
     border-radius: 25%;
     
 }
-.details-title{ display: inline-block; 
-    width: 500px;
-    font-size: 20px; 
-    color:indigo;
-    margin-top: 2.5vh;
+.details-title{ display:block; 
+   
    
    
     
 }
 .thumbnail-item{
-    width: 15vw;
-    height: 13vw;
+    width: 20vw;
+    height: 20vw;
     margin-top: 2.5vh;
-    border:solid 2px; color: rgb(137, 5, 137); border-radius: 25%;
+    border:solid 2px; color: rgb(137, 5, 137); 
+    border-radius: 25%;
+    overflow: hidden;
    
   
   
@@ -50,31 +51,25 @@ body{
     flex-direction: row;
     flex-wrap: wrap;
     max-height: 25vh;
-    max-width: 100vh;
-    overflow: auto;
+    overflow-y: auto;
     justify-content: space-around;
     margin-top: 2.5vh; 
-   
-    
-    
+    padding-left: 0;
 
-    
 }
-.thumbnail-image{ width: 15vw;
-    height: 10vw;
-    border-top-left-radius: 28%;
-    border-top-right-radius: 28%;
+.thumbnail-image{ width: 20vw;
+    height: 15vw;
+    display: block;
+   
     
    
     
 }
 .thumbnail-title{display: block;
     text-align: center;
-    height: 3vw;
+    height: 5vw;
     background-color: rgb(164, 22, 167);
-    margin-top: -0.7vh;
-    border-bottom-left-radius: 35px;
-    border-bottom-right-radius: 35px;
+   
    
    
 }
