@@ -12,7 +12,7 @@ body{
 
 }
 .main-class{
-    
+    display: inline;
 }
 .details-container{
     display: flex;
