@@ -120,6 +120,7 @@ body{
         max-height: 75vh;
         order:-1;
         justify-content: flex-start;
+        padding-right: 3vw;
     }
     .main-class{
         flex-direction: row;
