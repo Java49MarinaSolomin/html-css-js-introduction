@@ -14,6 +14,7 @@
     --thumbnails-title-height: calc(var(--thumbnails-img-height)* 0.33);
 }
 
+
 body, html {
     height: 100%;
 }
@@ -23,7 +24,8 @@ body{
     background-color:rgb(255, 182, 239);
     margin: 0;
 }
-.logo{ font-size: 40px;
+.logo{ 
+    font-size: 2em;
     color: rgb(242, 128, 242);
     text-align: center;
     background-color:rgb(117, 5, 93);
@@ -44,32 +46,27 @@ body{
     flex-direction: column;
     align-items: center;
     margin-bottom: 10vh;
-    position: relative;
    
 }
+.details-frame {
+    position: relative;
+}
+
 .details-image{ 
     width: 90vw;
     height: 70vw;
     border-radius: 25%;
     
 }
-.details-title{ display:block;  
+.details-title{ 
+    display:block;  
    font-family: airstream;
     font-style: italic;
    background-color:rgb(203, 236, 188);
     position: absolute;
-    left: 3vw;
-    bottom: 1vw;
+    left: 0;
+    bottom: 2vw;
  
-}
-
-.thumbnails-item {
- max-width: var(--thumbnails-img-width);
-   min-height: calc(var(--thumbnails-img-height) + var(--thumbnails-title-height));
-    margin-top: 2.5vh;
-    border: solid 1px black;
-    border-radius: 25%;
-    overflow: hidden;
 }
 
 .thumbnail-list{list-style: none;
@@ -82,6 +79,16 @@ body{
     padding-left: 0;
 
 }
+.thumbnails-item {
+ max-width: var(--thumbnails-img-width);
+   min-height: calc(var(--thumbnails-img-height) + var(--thumbnails-title-height));
+    margin-top: 2.5vh;
+    border: solid 1px black;
+    border-radius: 25%;
+    overflow: hidden;
+}
+
+
 .thumbnail-image{ 
     width: var(--thumbnails-img-width);
     height: var(--thumbnails-img-height);
