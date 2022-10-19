@@ -1,5 +1,5 @@
 console.log("Launching script");
-const anchors=document.querySelectorAll(".thumbnails-anchor");
+const anchors=document.querySelectorAll(".thumbnail-anchor");
 const detailsImage=document.querySelector(".details-image");
 const detailsTitle=document.querySelector(".details-title");
 function setDetails (anchor){
