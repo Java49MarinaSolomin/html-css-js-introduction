@@ -81,7 +81,7 @@ body{
     padding-left: 0;
 
 }
-.thumbnails-item {
+.thumbnail-item {
     max-width: var(--thumbnails-img-width);
     min-height: calc(var(--thumbnails-img-height) + var(--thumbnails-title-height));
     margin-top: 2.5vh;
