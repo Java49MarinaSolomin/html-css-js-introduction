@@ -128,7 +128,6 @@ display: none;
 }
 .hidden .thumbnail-title {
     font-size: 1.3em;
-  
 }
 .thumbnail-anchor{
    text-decoration: none;
@@ -182,7 +181,7 @@ display: none;
     }
     .hidden .thumbnail-title {
         font-size: 1.5em;
-        background-color: rgb(255, 0, 0);
+      
     }
     
     @media (min-width: 900px) {
@@ -206,8 +205,8 @@ display: none;
             height: 35vw;
         }
         .hidden .thumbnail-title {
-            font-size: 1.5em;
-            background-color: aqua;
+            font-size: 1.8em;
+            
         }
     }
 
