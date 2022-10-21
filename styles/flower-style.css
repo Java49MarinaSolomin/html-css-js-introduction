@@ -21,13 +21,13 @@ body, html {
 body{
     display:flex;
     flex-direction: column;
-    background-color:rgb(255, 182, 239);
+    background-color:rgb(239, 204, 232);
     margin: 0;
 }
 .logo{ 
     font-size: 2em;
     background-color:rgb(117, 5, 93);
-    color: rgb(242, 128, 242);
+    color: rgb(243, 184, 243);
     display: block;
     text-align: center;
     font-family: lakeshore;
@@ -35,11 +35,18 @@ body{
     letter-spacing: 5px;
 
 }
-.main-class{
+.main-class {
     display: flex;
     flex-direction: column;
     justify-content: center;
     flex-grow: 1;
+}
+
+.hidden.main-class {
+    --thumbnails-img-width: 35vw;
+    --thumbnails-img-height: 25vw;
+    
+
 }
 .details-container{
     display: flex;
@@ -48,10 +55,22 @@ body{
     margin-bottom: 10vh;
    
 }
+
+.hidden .details-container {
+display: none;
+}
 .details-frame {
     position: relative;
 }
+.hide-button {
+    position:absolute;
+    top:3vh;
+    right:3vh;
+    background-color: rgb(157, 8, 140);
+    font-style:inherit;
+  
 
+}
 .details-image{ 
     width: 90vw;
     height: 70vw;
@@ -81,6 +100,10 @@ body{
     padding-left: 0;
 
 }
+.hidden .thumbnail-list{
+    max-height: 80vh;
+    margin-bottom: 10vh;
+}
 .thumbnail-item {
     max-width: var(--thumbnails-img-width);
     min-height: calc(var(--thumbnails-img-height) + var(--thumbnails-title-height));
@@ -90,7 +113,6 @@ body{
     overflow: hidden;
 
 }
-
 
 .thumbnail-image{ 
     width: var(--thumbnails-img-width);
