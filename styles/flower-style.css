@@ -53,6 +53,7 @@ body{
     flex-direction: column;
     align-items: center;
     margin-bottom: 10vh;
+    transition: 5s cubic-bezier(0.1,2,0.9,1);
    
 }
 
@@ -138,7 +139,11 @@ display: none;
     transform: scale(1.1);
     margin-left: 1vw;
   }
-  
+
+.is-point {
+transform: scale(0.001);
+transition: 0s;
+} 
 
 @media (min-width: 560px) {
     :root {
